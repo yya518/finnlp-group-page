@@ -10,3 +10,4 @@ _site/
 Gemfile
 Gemfile.lock
 .ruby-version
+abstracts.txt
