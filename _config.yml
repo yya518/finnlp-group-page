@@ -1,6 +1,8 @@
 name: FinNLP Group@HKUST
 description: Push the frontier of AI in finance
-url: finnlp.hkust.edu.hk
+url: "https://yya518.github.io"
+baseurl: "/finnlp-group-page"
+
 
 markdown: kramdown
 kramdown:
@@ -11,3 +13,4 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
   footnote_backlink: ""
+
