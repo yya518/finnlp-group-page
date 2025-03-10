@@ -1,0 +1,12 @@
+# Compiled site
+_site/
+
+# Jekyll build process
+.jekyll-cache
+
+# Other files
+.DS_Store
+
+Gemfile
+Gemfile.lock
+.ruby-version
