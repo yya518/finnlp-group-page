@@ -7,11 +7,11 @@ title: "Home"
 
 The FinNLP Group, led by [Prof. Yi Yang](https://yya518.github.io/), pioneers NLP and machine learning innovations tailored for financial and business applications. Our research is problem-driven and impact-focused, addressing real-world challenges in financial services.
 
-We bridge academic rigor with industry relevance, collaborating closely with [industry partners](/industry) to validate ideas and build practical prototypes. Our goal is to push the frontier of AI in finance, ensuring that our research not only advances the field but also delivers tangible value to the industry.
+We bridge academic rigor with industry relevance, collaborating closely with [industry partners]({{site.baseurl}}/industry) to validate ideas and build practical prototypes. Our goal is to push the frontier of AI in finance, ensuring that our research not only advances the field but also delivers tangible value to the industry.
 
 <div class="bigspacer"></div>
 
-# Research Focus Areas
+# Research Focus Areas {#research-focus}
 
 <div class="box" onclick="toggleSection('embedding-details', this)">
     <h3>01. Financial Text Embedding</h3>
@@ -125,9 +125,11 @@ Our group develops and benchmarks NLP and machine learning models for various fi
 <div class="bigspacer"></div>
 
 <div style="text-align: center;">
-  <img src="wordcloud.png" style="width: 100%; max-width: 600px; height: auto; ">
+  <img src="wordcloud.png" style="width: 100%; max-width: 800px; height: auto; ">
   <p style="font-size: 12px; color: gray;text-align: right; padding-right: 30px;">Generated from publication abstracts.</p>
 </div>
 
 
-
+<br>
+<br>
+<br>
