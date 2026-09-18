@@ -402,3 +402,44 @@ p {
 .content-wrapper {
     flex: 1;
 }
+
+/* Centered reading width, shared by navigation and every page. */
+.container { width: 100%; max-width: 860px; margin-left: auto; margin-right: auto; padding-left: 28px; padding-right: 28px; }
+.content-wrapper { padding-bottom: 48px; }
+.last-update { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-top: 64px; padding-top: 18px; border-top: 1px solid #e1e1e1; color: #777; font-size: 14px; text-align: left; }
+@media (max-width: 767px) {
+  .container { padding-left: 20px; padding-right: 20px; }
+  .navbar-brand { font-size: 25px; }
+}
+
+
+/* Research illustrations with a title and a short linked description. */
+.research-feature { margin: 28px 0 42px; }
+.research-feature h2 { color: #a12b2b; font-size: 26px; font-weight: 400; text-align: center; margin: 0 0 24px; }
+.research-feature-body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 28px; align-items: start; }
+.research-feature-body img { display: block; width: 100%; height: auto; border: 1px solid #e5e5e5; }
+.research-feature-body p { font-size: 17px; line-height: 1.65; margin: 0; }
+.research-feature-body a { text-decoration: underline; text-underline-offset: 3px; }
+.research-more { font-size: 14px; margin: 0 0 24px; }
+@media (max-width: 600px) {
+  .research-feature h2 { font-size: 24px; }
+  .research-feature-body { grid-template-columns: 1fr; gap: 18px; }
+  .research-feature-body img { max-width: 380px; margin: 0 auto; }
+  .research-feature-body p { font-size: 16px; }
+}
+
+
+.research-overview { font-size: 18px; line-height: 1.7; margin: 0 0 28px; }
+.research-overview a { font-weight: 400; text-decoration: underline; text-underline-offset: 3px; }
+.research-feature h2 { scroll-margin-top: 24px; }
+
+
+/* Keep the expanded navigation within the narrow page width. */
+.navbar-nav { font-size: 20px; }
+
+/* Official sponsor marks, with consistent space and original proportions. */
+.sponsor-logos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 36px; align-items: center; margin: 30px 0 40px; }
+.sponsor-logos a { display: flex; align-items: center; justify-content: center; min-height: 90px; padding: 12px; }
+.sponsor-logos img { display: block; max-width: 100%; width: auto; height: auto; max-height: 64px; }
+.sponsor-logos a:focus-visible { outline: 2px solid #234f78; outline-offset: 4px; }
+@media (max-width: 600px) { .sponsor-logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; } }
