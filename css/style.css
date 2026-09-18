@@ -443,3 +443,10 @@ p {
 .sponsor-logos img { display: block; max-width: 100%; width: auto; height: auto; max-height: 64px; }
 .sponsor-logos a:focus-visible { outline: 2px solid #234f78; outline-offset: 4px; }
 @media (max-width: 600px) { .sponsor-logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; } }
+
+/* Keep the navigation band within the same column as the page body. */
+#header .navbar { width: 100%; max-width: 860px; margin-inline: auto; }
+#header .navbar > .container { min-width: 0; }
+
+/* Compensate for the whitespace within the Kaisa logo asset. */
+.sponsor-logos .sponsor-logo-kaisa { width: 200px; max-height: 100px; }
