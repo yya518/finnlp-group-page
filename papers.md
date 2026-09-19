@@ -29,7 +29,7 @@ permalink: /papers.html
 - Departures from Routine Disclosure: An LLM-Based Measure of Changes in Management Outlook.
 - [Mind the Shift: Decoding Monetary Policy Stance from FOMC Statements with Large Language Models](https://arxiv.org/abs/2603.14313). Working paper, 2026.
 
-## Risk Management & Asset Allocation
+## Risk Forecasting & RL for Asset Allocation
 {: #risk-allocation }
 
 - [MacroAllocAgent: From Macro Narratives to Strategic Asset Allocation via a Multi-agent LLM System](https://ssrn.com/abstract=7286866). Working paper, 2026.

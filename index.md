@@ -7,7 +7,7 @@ title: "Home"
 
 <div id="research-focus"></div>
 
-<p class="research-overview">The FinNLP Group, led by <a href="https://yya518.github.io/">Prof. Yi Yang</a> at HKUST, develops NLP and AI methods for finance. Our research spans <a href="#financial-nlp-title">Financial LLM/Embedding</a>, <a href="#textual-factors-title">Textual Factors &amp; Return Predictability</a>, and <a href="#risk-allocation-title">Risk Management &amp; Asset Allocation</a>—from building financial language models to extracting signals from corporate disclosures 10-K filings, earnings calls, and macroeconomic narratives. We are excited to apply and scale our research with <a href="{{ site.baseurl }}/industry.html">industry partners</a>. </p>
+<p class="research-overview">The FinNLP Group, led by <a href="https://yya518.github.io/">Prof. Yi Yang</a> at HKUST, develops NLP and AI methods for finance. Our research spans <a href="#financial-nlp-title">Financial LLM/Embedding</a>, <a href="#textual-factors-title">Textual Factors &amp; Return Predictability</a>, and <a href="#risk-allocation-title">Risk Forecasting &amp; RL for Asset Allocation</a>—from building financial language models to extracting signals from corporate disclosures 10-K filings, earnings calls, and macroeconomic narratives. We are excited to apply and scale our research with <a href="{{ site.baseurl }}/industry.html">industry partners</a>. </p>
 
 
 <section class="research-feature" aria-labelledby="financial-nlp-title">
@@ -27,7 +27,7 @@ title: "Home"
 </section>
 
 <section class="research-feature" aria-labelledby="risk-allocation-title">
-  <h2 id="risk-allocation-title">Risk Management &amp; Asset Allocation</h2>
+  <h2 id="risk-allocation-title">Risk Forecasting &amp; RL for Asset Allocation</h2>
   <div class="research-feature-body">
     <a href="{{ site.baseurl }}/images/risk-allocation.png" aria-label="View the risk and allocation illustration at full size"><img src="{{ site.baseurl }}/images/risk-allocation.png" alt="Schematic return and risk forecasts informing portfolio optimization across equity, bonds, and cash. Illustrative bars, not empirical results or recommended allocations." width="1536" height="1024"></a>
     <p>We use financial disclosures, earnings calls, and macroeconomic narratives to support risk management and assect allocation. <a href="https://scholar.google.com.hk/citations?view_op=view_citation&amp;hl=en&amp;user=Prh_dHkAAAAJ&amp;citation_for_view=Prh_dHkAAAAJ:l7t_Zn2s7bgC">Divide-and-Contrast</a> predicts firm market risk from text, and <a href="https://scholar.google.com.hk/citations?view_op=view_citation&amp;hl=en&amp;user=Prh_dHkAAAAJ&amp;citation_for_view=Prh_dHkAAAAJ:fQNAKQ3IYiAC">Learning from Earnings Calls</a> models earnings conference call structure. <a href="https://ssrn.com/abstract=7286866">MacroAllocAgent</a> translates macroeconomic narratives into strategic asset allocations. <a href="{{ site.baseurl }}/papers.html#risk-allocation">View more</a>.</p>
